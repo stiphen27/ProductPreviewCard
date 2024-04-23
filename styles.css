@@ -1,0 +1,67 @@
+html{
+    background-color:  hsl(30, 38%, 92%);
+    width: 1440px;
+}
+.container{
+    margin: 160px 400px;
+    display: flex;
+    padding: 30px;
+}
+
+.image{
+    width: 50%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.productInfo{
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    color: hsl(158, 36%, 37%);
+}
+.price p{
+    text-decoration: line-through;
+}
+.addCart{
+    background-color:  hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    border-radius: 12px;
+}
+.addCart p{
+    color: white;
+    font-weight: 700;
+}
+
+p{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(228, 12%, 48%);
+    text-align: left;
+}
+h1{
+    font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
